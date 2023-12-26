@@ -1,0 +1,9 @@
+.section-1 p{
+    margin-top: 20px;
+    text-align:center;
+    font-style:bold;
+    display:block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color:black;
+}

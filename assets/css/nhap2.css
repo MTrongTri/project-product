@@ -1,0 +1,28 @@
+.heading-nv{
+    text-align: left;
+    font-weight: 900;
+    text-align: center;
+}
+.content-decimal{
+    list-style: decimal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.content-disc{
+    list-style: disc;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+.img-1 img{
+    display: inline-block;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .content-disc {
+        padding: 0;
+    }
+}

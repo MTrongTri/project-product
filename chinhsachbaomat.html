@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/chinhsachbaomat.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- header -->
+      <header class="header">
+        <!-- nav -->
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="nav-logo">
+              <a href="/"
+                ><img src="assets/img/logo.png" alt="" class="nav-logo-item"
+              /></a>
+            </div>
+
+            <!-- search -->
+            <div class="nav-search">
+              <input
+                class="nav-search-input"
+                type="text"
+                placeholder="Tìm kiếm"
+              />
+              <button class="nav-search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+
+            <!-- cart -->
+            <div class="nav-cart">
+              <a href="/cart.html" class="nav-cart-link">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              <span class="quantity-product-cart"></span>
+
+              <div class="msg-add-to-card">
+                <i class="fa-solid fa-check-circle"></i>
+                <span class="msg-text">Đã thêm 1 sản phẩm vào giỏ hàng</span>
+              </div>
+            </div>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- sidebar -->
+            <div
+              class="sidebar offcanvas offcanvas-start flex-lg-row"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Danh mục
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="offcanvas-body">
+                <ul class="nav-list">
+                  <li class="nav-list-item">
+                    <a href="/sukiengiamgia.html" class="nav-item-link"
+                      >Sự kiện</a
+                    >
+                  </li>
+                  <li class="nav-list-item">
+                    <a href="" class="nav-item-link">Khám phá</a>
+                  </li>
+                  <li class="nav-list-item">
+                    <i class="fa-solid fa-bell"></i>
+                    <a href="" class="nav-item-link">Thông báo</a>
+                  </li>
+                  <li class="nav-list-item">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <a href="" class="nav-item-link">Trợ giúp</a>
+                  </li>
+                </ul>
+
+                <a class="nav-login-link" href="/trangdn.html">
+                  <button class="nav-login">Đăng nhập</button>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="content">
+        <div class="container">
+          <div class="imagin">
+            <img
+              src="assets/img/img-detail/chinh-sach-bao-mat-thong-tin.jpg"
+              alt="#"
+            />
+          </div>
+          <div class="article_detail___2DTOA is_pc___3cXET ql-snow">
+            <h2 class="title___1AS6L">CHÍNH SÁCH BẢO MẬT</h2>
+            <div class="content___1Q8Gm ql-editor pcContent___2eFux">
+              <p><strong>1. GIỚI THIỆU</strong></p>
+
+              <p>
+                <span
+                  >1.1. Chào mừng bạn đến với Food network .Chúng tôi nghiêm túc
+                  thực hiện trách nhiệm của mình liên quan đến bảo mật thông tin
+                  theo các quy định về bảo vệ bí mật thông tin cá nhân của pháp
+                  luật Việt Nam (“Luật riêng tư”) và cam kết tôn trọng quyền
+                  riêng tư và sự quan tâm của tất cả người dùng đối với website
+                  và ứng dụng di động của chúng tôi (“Nền tảng”) (chúng tôi gọi
+                  chung Các Nền tảng và các dịch vụ chúng tôi cung cấp như được
+                  mô tả trong Nền tảng của chúng tôi là "các Dịch Vụ"). Người
+                  dùng có nghĩa là người đăng ký tài khoản với chúng tôi để sử
+                  dụng các Dịch Vụ, bao gồm cả người mua và người bán (gọi chung
+                  và gọi riêng là “Các Người Dùng”, “bạn” hoặc “của bạn”). Chúng
+                  tôi nhận biết tầm quan trọng của dữ liệu cá nhân mà bạn đã tin
+                  tưởng giao cho chúng tôi và tin rằng chúng tôi có trách nhiệm
+                  quản lý, bảo vệ và xử lý dữ liệu cá nhân của bạn một cách
+                  thích hợp. Chính sách bảo mật này ("Chính sách bảo mật" hay
+                  "Chính sách") được thiết kế để giúp bạn hiểu được cách thức
+                  chúng tôi thu thập, sử dụng, tiết lộ và/hoặc xử lý dữ liệu cá
+                  nhân mà bạn đã cung cấp cho chúng tôi và/hoặc lưu giữ về bạn,
+                  cho dù là hiện nay hoặc trong tương lai, cũng như để giúp bạn
+                  đưa ra quyết định sáng suốt trước khi cung cấp cho chúng tôi
+                  bất kỳ dữ liệu cá nhân nào của bạn.</span
+                >
+              </p>
+              <p>
+                <span
+                  >1.2. "Dữ Liệu Cá Nhân" hay "dữ liệu cá nhân" có nghĩa là dữ
+                  liệu, dù đúng hay không, về một cá nhân mà thông qua đó có thể
+                  được xác định được danh tính, hoặc từ dữ liệu đó và thông tin
+                  khác mà một tổ chức có hoặc có khả năng tiếp cận. Các ví dụ
+                  thường gặp về dữ liệu cá nhân có thể gồm có tên, số chứng minh
+                  nhân dân và thông tin liên hệ.</span
+                >
+              </p>
+              <p><br /></p>
+              <p>
+                <span
+                  >1.3. Bằng việc sử dụng Các Dịch Vụ, đăng ký một tài khoản với
+                  chúng tôi hoặc truy cập Nền tảng, bạn xác nhận và đồng ý rằng
+                  bạn chấp nhận các phương pháp, yêu cầu, và/hoặc chính sách
+                  được mô tả trong Chính sách bảo mật này, và theo đây bạn xác
+                  nhận bạn đã biết rõ và đồng ý toàn bộ cho phép chúng tôi thu
+                  thập, sử dụng, tiết lộ và/hoặc xử lý dữ liệu cá nhân của bạn
+                  như mô tả trong đây. Nếu chúng tôi thay đổi Chính sách bảo mật
+                  của mình, chúng tôi sẽ thông báo cho bạn bao gồm cả thông qua
+                  việc đăng tải những thay đổi đó hoặc Chính sách bảo mật sửa
+                  đổi trên Nền tảng của chúng tôi. Trong phạm vi pháp luật cho
+                  phép, việc tiếp tục sử dụng các Dịch Vụ hoặc Nền Tảng, bao gồm
+                  giao dịch của bạn, được xem là bạn đã công nhận và đồng ý với
+                  các thay đổi trong Chính Sách Bảo Mật này.</span
+                >
+              </p>
+              <p><br /></p>
+              <p>
+                <span
+                  >1.4. Chính sách này áp dụng cùng với các thông báo, điều
+                  khoản hợp đồng, điều khoản chấp thuận khác áp dụng liên quan
+                  đến việc chúng tôi thu thập, lưu trữ, sử dụng, tiết lộ và hoặc
+                  xử lý dữ liệu cá nhân của bạn và không nhằm ghi đè những thông
+                  báo hoặc các điều khoản đó trừ khi chúng tôi có tuyên bố ràng
+                  khác.</span
+                >
+              </p>
+              <p>
+                <span
+                  >1.5. Chính sách này được áp dụng cho cả Người bán và Người
+                  mua đang sử dụng Dịch vụ trừ khi có tuyên bố rõ ràng ngược
+                  lại.</span
+                >
+              </p>
+              <p><br /></p>
+              <p>2. KHI NÀO FOOD NETWORK SẼ THU THẬP DỮ LIỆU CÁ NHÂN?</p>
+              <p>
+                <span
+                  >2.1. Chúng tôi sẽ/có thể thu thập dữ liệu cá nhân về
+                  bạn:</span
+                >
+              </p>
+              <ol>
+                <li>
+                  <span
+                    >Khi bạn đăng ký và/hoặc sử dụng Các Dịch Vụ hoặc Nền tảng
+                    của chúng tôi, hoặc mở một tài khoản với chúng tôi;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Khi bạn gửi bất kỳ biểu mẫu nào, bao gồm đơn đăng ký hoặc
+                    các mẫu đơn khác liên quan đến bất kỳ sản phẩm và dịch vụ
+                    nào của chúng tôi, bằng hình thức trực tuyến hay dưới hình
+                    thức khác;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >khi bạn ký kết bất kỳ thỏa thuận nào hoặc cung cấp các tài
+                    liệu hoặc thông tin khác liên quan đến tương tác giữa bạn
+                    với chúng tôi, hoặc khi bạn sử dụng các sản phẩm và dịch vụ
+                    của chúng tôi;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >khi bạn tương tác với chúng tôi, chẳng hạn như thông qua
+                    các cuộc gọi điện thoại (có thể được ghi âm lại), thư từ,
+                    gặp gỡ trực tiếp, các nền ứng dụng truyền thông xã hội và
+                    email;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >khi bạn sử dụng các dịch vụ điện tử của chúng tôi, hoặc
+                    tương tác với chúng tôi qua Nền tảng hoặc Trang Web hoặc Các
+                    Dịch Vụ của chúng tôi. Trường hợp này bao gồm thông qua tập
+                    tin cookie mà chúng tôi có thể triển khai khi bạn tương tác
+                    với các Nền tảng hoặc Trang Web của chúng tôi;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >khi bạn cấp quyền trên thiết bị của bạn để chia sẻ thông
+                    tin với ứng dụng hoặc Nền tảng của chúng tôi</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Khi bạn liên kết tài khoản food network với tài khoản mạng
+                    xã hội của bạn hoặc các tài khoản bên ngoài khác hoặc sử
+                    dụng các tính năng mạng xã hội khác, phù hợp với các chính
+                    sách của nhà cung cấp;</span
+                  >
+                </li>
+                <li>
+                  khi bạn thực hiện các giao dịch thông qua Dịch vụ của chúng
+                  tôi chẳng hạn như mỗi khi bạn đặt mua hàng hoặc chấp nhận đơn
+                  đặt hàng của Người mua;
+                </li>
+                <li>
+                  <span
+                    >khi bạn cung cấp ý kiến phản hồi hoặc gửi khiếu nại cho
+                    chúng tôi;</span
+                  >
+                </li>
+                <li><span>khi bạn đăng ký tham gia một cuộc thi; </span></li>
+                <li>
+                  <span
+                    >khi bạn gửi dữ liệu cá nhân của bạn cho chúng tôi vì bất kỳ
+                    lý do gì; và/hoặc</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >khi bạn thực hiện các hoạt động khác trên nền tảng của
+                    chúng tôi.</span
+                  >
+                </li>
+              </ol>
+
+              <p><br /></p>
+              <p>
+                <span
+                  >Các trường hợp trên không nhằm mục đích liệt kê đầy đủ các
+                  trường hợp và chỉ đưa ra một số trường hợp phổ biến về thời
+                  điểm dữ liệu cá nhân của bạn có thể bị thu thập.</span
+                >
+              </p>
+              <p>
+                <span
+                  >2.2. Chúng tôi có thể thu thập thông tin của bạn từ bạn, các
+                  công ty liên kết, các bên thứ ba và từ các nguồn khác, bao gồm
+                  nhưng không giới hạn ở đối tác kinh doanh (ví dụ như đơn vị
+                  cung ứng dịch vụ vận chuyển, thanh toán), cơ quan đánh giá tín
+                  dụng, các đơn vị, đối tác cung cấp dịch vụ marketing, giới
+                  thiệu, các chương trình khách hàng thân thiết, những người
+                  dùng khác sử dụng Các Dịch Vụ của chúng tôi hoặc các nguồn dữ
+                  liệu công khai có sẵn hay các nguồn dữ liệu của nhà
+                  nước.</span
+                >
+              </p>
+              <p></p>
+              <p>
+                2.3. Trong một số trường hợp, bạn có thể cung cấp dữ liệu cá
+                nhân của các cá nhân khác cho chúng tôi (ví dụ như thành viên
+                gia đình, bạn bè hoặc những người trong danh sách liên hệ của
+                bạn). Nếu bạn cung cấp cho chúng tôi dữ liệu cá nhân của họ, bạn
+                tuyên bố và đảm bảo rằng bạn đã nhận được sự đồng ý của họ để xử
+                lý dữ liệu cá nhân của họ theo Chính sách này.
+              </p>
+              <p><br /></p>
+              <p>
+                <strong>3. FOOD NETWORK SẼ THU THẬP NHỮNG DỮ LIỆU GÌ?</strong>
+              </p>
+              <p>
+                <span>3.1. </span
+                ><span
+                  >Trừ trường hợp được quy định khác đi trong Chính sách này, dữ
+                  liệu cá nhân mà Shopee có thể thu thập bao gồm dữ liệu cá nhân
+                  cơ bản và dữ liệu cá nhân nhạy cảm (theo quy định của Luật
+                  riêng tư) như được liệt kê dưới đây:</span
+                >
+              </p>
+              <p></p>
+              <ol>
+                <li><span>Họ tên;</span></li>
+                <li><span>Địa chỉ email;</span></li>
+                <li><span>Ngày sinh;</span></li>
+                <li>
+                  <span>Địa chỉ thanh toán và hoặc giao nhận hàng hóa;</span>
+                </li>
+                <li>
+                  <span>Tài khoản ngân hàng và thông tin thanh toán</span>
+                </li>
+                <li><span>Số điện thoại;</span></li>
+                <li><span>Giới tính;</span></li>
+                <li>
+                  <span
+                    >Thông tin được gửi bởi hoặc liên quan đến thiết bị được sử
+                    dụng để truy cập vào các dịch vụ của chúng tôi;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Thông tin về mạng của bạn, bao gồm danh sách liên hệ của
+                    bạn khi đồng ý chia sẻ trên thiết bị của bạn, và những người
+                    và tài khoản mà bạn có tương tác;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Thông tin về nhân thân được cấp bởi chính phủ hoặc các
+                    thông tin khác phục vụ cho các mục đích đánh giá pháp lý,
+                    nhận biết khách hàng, xác minh thông tin và/hoặc phòng chống
+                    gian lận của chúng tôi;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Dữ liệu truyền thông hoặc liên lạc, ví dụ như các tùy chọn
+                    nhận thông tin quảng cáo từ chúng tôi hoặc các bên thứ ba
+                    của bạn, tùy chọn phương tiện liên lạc và lịch sử thông tin
+                    liên lạc với chúng tôi, các nhà cung cấp dịch vụ của chúng
+                    tôi, và các bên thứ ba khác;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Thông tin sử dụng và giao dịch, bao gồm chi tiết về lịch sử
+                    tìm kiếm, giao dịch, quảng cáo và nội dung hiển thị mà tương
+                    tác với Nền Tảng, cũng như các sản phẩm và dịch vụ có liên
+                    quan của bạn;</span
+                  >
+                </li>
+                <li><span>Dữ liệu về địa điểm;</span></li>
+                <li>
+                  <span
+                    >Bất kỳ thông tin nào khác về người dùng khi người dùng đăng
+                    nhập để sử dụng dịch vụ của chúng tôi, và khi người dùng sử
+                    dụng Các Dịch Vụ hoặc Nền tảng, cũng như thông tin về việc
+                    người dùng sử dụng Các Dịch Vụ hoặc Nền tảng của chúng tôi
+                    như thế nào; và</span
+                  >
+                </li>
+                <li>
+                  <span>Dữ liệu tổng hợp về nội dung người dùng sử dụng.</span>
+                </li>
+              </ol>
+              <p><br /></p>
+              <p>
+                <span
+                  >3.2. Bạn đồng ý không cung cấp cho chúng tôi bất cứ thông tin
+                  nào không chính xác hoặc gây hiểu nhầm và bạn đồng ý sẽ thông
+                  báo cho chúng tôi về bất cứ thông tin nào không chính xác hoặc
+                  khi có sự thay đổi thông tin. Chúng tôi bảo lưu quyền theo
+                  quyết định riêng của chúng tôi được yêu cầu các tài liệu cần
+                  thiết khác để xác minh bất cứ thông tin nào được bạn cung
+                  cấp.</span
+                >
+              </p>
+              <p><br /></p>
+              <p>
+                <span
+                  >3.3. Nếu bạn đăng nhập để trở thành Người sử dụng các Nền
+                  tảng của chúng tôi sử dụng tài khoản mạng xã hội của Bạn (“Tài
+                  khoản Mạng Xã hội”), liên kết tài khoản của bạn với Tài khoản
+                  Mạng Xã hội của bạn hoặc sử dụng bất cứ tính năng mạng xã hội
+                  Shopee nào, chúng tôi có quyền truy cập thông tin về bạn mà
+                  bạn đã cung cấp một cách tự nguyên cho nhà cung cấp dịch vụ
+                  Tài khoản Mạng Xã hội của Bạn tuân theo các chính sách của các
+                  nhà cung cấp dịch vụ này, và chúng tôi sẽ quản lý, xử lý và sử
+                  dụng các dữ liệu cá nhân này của bạn theo các quy định của
+                  Chính sách này tại mọi thời điểm.</span
+                >
+              </p>
+              <ol>
+                <li>
+                  <span
+                    >Để đáp ứng các thủ tục pháp lý hoặc để tuân thủ hoặc theo
+                    quy định của pháp luật hiện hành, và các yêu cầu của cơ quan
+                    nhà nước có thẩm quyền hoặc yêu cầu của bất cứ cơ quan tài
+                    phán nào hoặc khi chúng tôi thực sự tin tưởng rằng việc tiết
+                    lộ thông tin là cần thiết, bao gồm nhưng không giới hạn, đáp
+                    ứng các yêu cầu đáp ứng các yêu cầu công bố thông tin theo
+                    yêu cầu của bất kỳ luật ràng buộc nào đối với Shopee hoặc
+                    các công ty hoặc chi nhánh liên quan của Shopee (bao gồm,
+                    nếu có, việc hiển thị tên, chi tiết liên hệ và chi tiết công
+                    ty của bạn);</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Để lập số liệu thống kê và nghiên cứu đáp ứng yêu cầu báo
+                    cáo và/hoặc duy trì sổ sách nội bộ hoặc theo quy định;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Để thực hiện quy trình tìm hiểu và xác minh hoặc các hoạt
+                    động sàng lọc khác (bao gồm nhưng không giới hạn kiểm tra lý
+                    lịch) tuân thủ các nghĩa vụ theo quy định pháp luật hoặc cơ
+                    quan nhà nước có thẩm quyền hoặc các thủ tục kiểm soát rủi
+                    ro của chúng tôi, có thể được pháp luật yêu cầu hoặc có thể
+                    đã được chúng tôi áp dụng;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Để kiểm tra Các Dịch Vụ của chúng tôi hoặc hoạt động của
+                    Shopee</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >để ngăn chặn hoặc điều tra bất kỳ hoạt động gian lận thực
+                    tế hoặc bị nghi ngờ nào đối với Điều khoản dịch vụ của chúng
+                    tôi, gian lận, các hành vi phi pháp, thiếu sót hay hành vi
+                    sai trái nào, cho dù có liên quan đến việc bạn sử dụng Các
+                    Dịch Vụ của chúng tôi hay không hay bất kỳ vấn đề nào phát
+                    sinh từ quan hệ của bạn với chúng tôi;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Để đáp ứng bất cứ các mối đe dọa hoặc yêu cầu thực tế nào
+                    được khẳng định chống lại Shopee hoặc các yêu cầu khác liên
+                    quan đến các Nội dung vi phạm quy định của các bên thứ
+                    ba;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Để lưu trữ, lập máy chủ, sao lưu (cho dù là vì mục đích
+                    khôi phục sau thảm họa hoặc mục đích khác) đối với dữ liệu
+                    cá nhân của bạn;</span
+                  >
+                </li>
+                <li>
+                  <span
+                    >Bất kỳ mục đích nào mà chúng tôi thông báo cho bạn tại thời
+                    điểm xin sự cho phép của bạn.</span
+                  >
+                </li>
+              </ol>
+              <p>
+                <span
+                  >3.4. Bạn xác nhận, cho phép và đồng ý rằng chúng tôi có thể
+                  truy cập, lưu trữ, xử lý và tiết lộ thông tin Tài khoản và Nội
+                  dung của bạn nếu luật pháp yêu cầu làm như vậy hoặc theo lệnh
+                  của tòa án hoặc của bất kỳ cơ quan chính phủ hoặc cơ quan quản
+                  lý nào có thẩm quyền đối với Shopee hoặc các chi nhánh của
+                  Shopee hoặc với lý do chính đáng Shopee tin rằng việc truy
+                  cập, lưu giữ hoặc tiết lộ đó là cần thiết và chính đáng để:
+                  tuân thủ quy trình pháp lý; tuân thủ yêu cầu từ bất kỳ cơ quan
+                  chính phủ hoặc cơ quan quản lý nào có thẩm quyền đối với
+                  Shopee hoặc các chi nhánh có liên quan của Food network; thực
+                  thi Điều khoản Dịch vụ của chúng tôi hoặc Chính sách Bảo mật
+                  này; phản hồi bất kỳ khiếu nại nào du cho là nguy cơ hoặc đang
+                  xảy ra trên thực tế để chống lại Food network hoặc các chi
+                  nhánh có liên quan hoặc khiếu nại khác rằng bất kỳ Nội dung
+                  nào vi phạm quyền của bên thứ ba; đáp ứng các yêu cầu của bạn
+                  về dịch vụ khách hàng; hoặc bảo vệ quyền, tài sản hoặc sự an
+                  toàn cá nhân của Shopee hoặc các chi nhánh có liên quan, người
+                  dùng và hoặc công chúng.</span
+                >
+              </p>
+              <p>
+                <span
+                  >3.5. Vì Các Mục Đích mà chúng tôi sẽ/có thể thu thập, sử
+                  dụng, tiết lộ hoặc xử lý dữ liệu cá nhân của bạn phụ thuộc vào
+                  hoàn cảnh hiện có, mục đích đó có thể không xuất hiện bên
+                  trên. Tuy nhiên, chúng tôi sẽ thông báo cho bạn biết mục đích
+                  khác đó tại thời điểm xin sự cho phép của bạn, trừ phi việc xử
+                  lý dữ liệu áp dụng mà không có sự đồng ý của bạn là được phép
+                  theo các quy định của pháp luật về bảo vệ bí mật thông tin cá
+                  nhân hoặc theo quy định pháp luật.</span
+                >
+              </p>
+              <p><br /></p>
+              <p>
+                <strong
+                  >4. FOOD NETWORK BẢO VỆ VÀ LƯU TRỮ THÔNG TIN KHÁCH HÀNG BẰNG
+                  CÁCH NÀO</strong
+                >
+              </p>
+              <p>
+                <span
+                  >4.1. Chúng tôi thực hiện các biện pháp bảo mật khác nhau và
+                  luôn nỗ lực để đảm bảo sự an toàn của dữ liệu cá nhân của bạn
+                  trên các hệ thống của chúng tôi. Dữ liệu cá nhân của người
+                  dùng được lưu trữ đằng sau các mạng bảo mật và chỉ có thể được
+                  truy cập bởi một số nhân viên có quyền truy cập đặc biệt đến
+                  các hệ thống của chúng tôi. Tuy nhiên, chắc chắn không thể có
+                  sự đảm bảo an ninh tuyệt đối.</span
+                >
+              </p>
+              <p><br /></p>
+              <p>
+                <span
+                  >4.2.Chúng tôi sẽ duy trì dữ liệu cá nhân tuân theo các quy
+                  định của pháp luật về bảo vệ bí mật thông tin cá nhân và hoặc
+                  các điều luật hiện hành khác. Có nghĩa là chúng tôi sẽ hủy
+                  hoặc xóa thông tin nhận dạng ra khỏi dữ liệu cá nhân của bạn
+                  khi chúng tôi nhận được yêu cầu của bạn phù hợp với các quy
+                  định của Luật riêng tư hiện hành hoặc khi chúng tôi có lý do
+                  hợp lý để xác định rằng việc lưu trữ dữ liệu cá nhân đó không
+                  còn phục vụ mục đích thu thập dữ liệu cá nhân đó nữa; việc lưu
+                  giữ không còn cần thiết cho bất kỳ mục đích hợp pháp hay mục
+                  đích kinh doanh nào và không còn các lợi ích hợp pháp nào khác
+                  để tiếp tục lưu giữ các dữ liệu cá nhân này. Nếu bạn ngưng sử
+                  dụng Nền tảng của chúng tôi, hoặc quyền của bạn được sử dụng
+                  Nền tảng và/hoặc Các Dịch Vụ bị chấm dứt hoặc hủy bỏ, chúng
+                  tôi có thể tiếp tục lưu, sử dụng và/hoặc tiết lộ dữ liệu cá
+                  nhân của bạn tuân theo Chính sách bảo mật này và các nghĩa vụ
+                  của chúng tôi theo các quy định của pháp luật về bảo vệ bí mật
+                  thông tin cá nhân. Tùy thuộc vào quy định của pháp luật, chúng
+                  tôi có thể tiêu hủy dữ liệu cá nhân của bạn một cách an toàn
+                  mà không cần thông báo trước cho bạn.</span
+                >
+              </p>
+              <p>
+                <span
+                  >4.3. Chúng tôi bảo lưu quyền từ chối xóa, tiêu hủy dữ liệu
+                  trong trường hợp yêu cầu của bạn không phù hợp với quy định
+                  của Luật riêng tư hiện hành, hoặc mặc dù phù hợp nhưng thuộc
+                  trường hợp Chúng tôi không được xóa, tiêu hủy theo quy định
+                  của Luật riêng tư hiện hành.</span
+                >
+              </p>
+              <p><strong>Lưu ý</strong></p>
+              <p>
+                - Yêu cầu của bạn chỉ được coi là hợp lệ và được chấp nhận xử lý
+                khi có đầy đủ các thông tin cần thiết và sử dụng đúng biểu mẫu
+                theo quy định của Luật riêng tư hiện hành.
+              </p>
+              <p>
+                - Chúng tôi có thể tính một khoản phí hợp lý cho bạn để giải
+                quyết và xử lý yêu cầu cung cấp dữ liệu cá nhân của bạn. Nếu
+                chúng tôi có tính phí, chúng tôi sẽ cung cấp cho bạn ước tính lệ
+                phí bằng văn bản tùy thuộc vào từng trường hợp cụ thể.
+              </p>
+              <p>
+                - Trong trường hợp yêu cầu của bạn là hợp lệ theo quy định của
+                pháp luật và thuộc trường hợp chúng tôi được phép cung cấp dữ
+                liệu, chúng tôi sẽ thông báo đến bạn thông qua các phương thức
+                liên lạc phù hợp về thời gian, địa điểm, hình thức cung cấp dữ
+                liệu cá nhân, chi phí (nếu có), phương thức, thời hạn thanh toán
+                (nếu có) và chúng tôi sẽ cung cấp dữ liệu cá nhân theo đúng
+                thông báo này và các thủ tục khác theo quy định của pháp luật.
+              </p>
+              <p>
+                - Vui lòng lưu ý rằng chúng tôi không buộc phải đáp ứng hay giải
+                quyết yêu cầu cung cấp Dữ Liệu Cá Nhân của bạn trừ phi bạn đã
+                đồng ý đóng phí theo thông báo được quy định
+              </p>
+              <p>
+                - Chúng tôi bảo lưu quyền từ chối cung cấp dữ liệu cá nhân của
+                bạn theo các quy định của pháp luật về bảo vệ bí mật thông tin
+                cá nhân, trường hợp các điều luật đó yêu cầu và/hoặc cho phép
+                một tổ chức từ chối cung cấp dữ liệu cá nhân trong các trường
+                hợp như thế.
+              </p>
+              <p>
+                <span
+                  >- Nếu bạn đã đăng ký một tài khoản với chúng tôi, cá nhân bạn
+                  có thể truy cập và/hoặc sửa dữ liệu cá nhân của bạn mà chúng
+                  tôi đang lưu giữ hoặc kiểm soát thông qua trang Thiết Lập Tài
+                  Khoản trên Nền tàng. Nếu bạn chưa đăng ký tài khoản với chúng
+                  tôi, cá nhân bạn có thể yêu cầu truy cập và hoặc sửa dữ liệu
+                  cá nhân của bạn mà chúng tôi đang lưu giữ hoặc kiểm soát bằng
+                  cách gửi yêu cầu bằng văn bản cho chúng tôi. Chúng tôi sẽ cần
+                  có đủ thông tin từ bạn để xác định danh tính của bạn cũng như
+                  bản chất yêu cầu của bạn để có thể giải quyết yêu cầu của bạn.
+                  Do đó, vui lòng gửi yêu cầu bằng văn bản của bạn bằng cách gửi
+                  email cho Chuyên viên Bảo Vệ Dữ Liệu Cá Nhân của chúng tôi tại
+                  địa chỉ email foodnetwork.com hoặc tại </span
+                ><a href="#" rel="noopener noreferrer" target="_blank">ĐÂY</a>.
+              </p>
+              <div class="trend">
+                <h1
+                  class="slds-text-heading--small slds-m-right--xx-small slds-hyphenate"
+                >
+                  Bài viết nổi bật
+                </h1>
+                <ul class="slds-grid--vertical slds-wrap slds-has-block-links">
+                  <li>
+                    <div>
+                      <a
+                        class="slds-p-vertical_small slds-border_bottom slds-hyphenate"
+                        href="#"
+                        ><span class="slds-text-body_small slds-show"
+                          >Tại sao anh lại lừa dối em</span
+                        ></a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="comm-topic-trending-articles__item">
+                      <a
+                        class="slds-p-vertical_small slds-border_bottom slds-hyphenate"
+                        href="#"
+                        ><span class="slds-text-body_small slds-show"
+                          >Hiện tại quá khứ là gì</span
+                        ></a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="comm-topic-trending-articles__item">
+                      <a
+                        class="slds-p-vertical_small slds-border_bottom slds-hyphenate"
+                        href="#"
+                        ><span class="slds-text-body_small slds-show"
+                          >Tương lai của bạn như thế nào
+                        </span></a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="comm-topic-trending-articles__item">
+                      <a
+                        class="slds-p-vertical_small slds-border_bottom slds-hyphenate"
+                        href="#"
+                        ><span class="slds-text-body_small slds-show"
+                          >Lòng người là gì
+                        </span></a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="comm-topic-trending-articles__item">
+                      <a
+                        class="slds-p-vertical_small slds-border_bottom slds-hyphenate"
+                        href="#"
+                        ><span class="slds-text-body_small slds-show"
+                          >Chính sách bảo mật</span
+                        ></a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+              <h5 class="heading">Chăm sóc khách hàng</h5>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a
+                    href="/pagehelp.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Trung tâm trợ giúp</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/gopykhieunai.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Góp ý kiến khiếu nại</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/huongdanmuahang.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Hướng dẫn mua hàng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="thongtinnhuongquyen.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Thông tin nhượng quyền</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item-link">Vận chuyển</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+              <h5 class="heading">Về chúng tôi</h5>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a
+                    href="/gioithieu.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Giới thiệu về cửa hàng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/noiquycuahang.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Nội quy cửa hàng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/tuyendungnv.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Tuyển dụng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/chinhsachbaomat.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Chính sách bảo mật</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/dieukhoansudung.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Điều khoảng sử dụng</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+              <h5 class="heading">Theo dõi chúng tôi</h5>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item-link">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item-link">
+                    <i class="fa-brands fa-youtube"></i>
+                    Youtube
+                  </a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item-link">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+              <h5 class="heading">Liên hệ với chúng tôi</h5>
+              <ul class="footer-list">
+                <li class="footer-item">Địa chỉ: Không biết</li>
+                <li class="footer-item">SĐT: Không có</li>
+                <li class="footer-item">Email: Không có</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- js boostrap -->
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script type="module" src="assets/js/common.js"></script>
+  </body>
+</html>

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/nhap3.css" />
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <!-- nav -->
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="nav-logo">
+              <a href="/"
+                ><img src="assets/img/logo.png" alt="" class="nav-logo-item"
+              /></a>
+            </div>
+
+            <!-- search -->
+            <div class="nav-search">
+              <input
+                class="nav-search-input"
+                type="text"
+                placeholder="Tìm kiếm"
+              />
+              <button class="nav-search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+
+            <!-- cart -->
+            <div class="nav-cart">
+              <a href="/cart.html" class="nav-cart-link">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              <span class="quantity-product-cart"></span>
+
+              <div class="msg-add-to-card">
+                <i class="fa-solid fa-check-circle"></i>
+                <span class="msg-text">Đã thêm 1 sản phẩm vào giỏ hàng</span>
+              </div>
+            </div>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- sidebar -->
+            <div
+              class="sidebar offcanvas offcanvas-start flex-lg-row"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Danh mục
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="offcanvas-body">
+                <ul class="nav-list">
+                  <li class="nav-list-item">
+                    <a href="/sukiengiamgia.html" class="nav-item-link"
+                      >Sự kiện</a
+                    >
+                  </li>
+                  <li class="nav-list-item">
+                    <a href="" class="nav-item-link">Khám phá</a>
+                  </li>
+                  <li class="nav-list-item">
+                    <i class="fa-solid fa-bell"></i>
+                    <a href="" class="nav-item-link">Thông báo</a>
+                  </li>
+                  <li class="nav-list-item">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <a href="" class="nav-item-link">Trợ giúp</a>
+                  </li>
+                </ul>
+
+                <a class="nav-login-link" href="/">
+                  <button class="nav-login">Đăng nhập</button>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="content">
+        <div class="container">
+          <!-- slider -->
+          <div id="slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img
+                  src="assets/img/img-product/com-ga-hoi-an.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img
+                  src="assets/img/img-product/com-chien-hai-san.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img
+                  src="assets/img/img-product/com-rang.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img
+                  src="assets/img/img-product/com-thit-bo.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img
+                  src="assets/img/img-product/com-tam-long-xuyen.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img
+                  src="assets/img/img-product/com-ni.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#slider"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#slider"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="product-container container">
+          <div class="title-top-product">
+            <h5>
+              NHỮNG MÓN VỚI MỨC GIÁ ƯU ĐÃI TRONG THÁNG 12 (ĐỒNG GIÁ 29.000đ)
+            </h5>
+          </div>
+          <div class="row gx-2 mt-1">
+            <div class="p-2 col-sm-6 col-md-4 col-lg-2">
+              <div class="card">
+                <a class="card-link" href="/pages/detail-product.html">
+                  <img
+                    src="assets/img/img-product/com-ga-hoi-an.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-name">Cơm gà Hội An</h5>
+                    <p class="card-description">
+                      Cơm gà Hội An Hà Nội mang đậm hương vị truyền thống miền
+                      Trung với cơm mềm, dẻo cùng gà ngọt thịt. Một góc nhỏ của
+                      ẩm thực Hội An tại Hà Nội đang chờ bạn khám phá và thưởng
+                      thức.
+                    </p>
+                    <span class="card-price">29.000đ</span>
+                    <button class="btn btn-danger btn-buy">Mua Ngay</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="p-2 col-sm-6 col-md-4 col-lg-2">
+              <div class="card">
+                <a class="card-link" href="/pages/detail-product.html">
+                  <img
+                    src="assets/img/img-product/com-chien-hai-san.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-name">Cơm chiên hải sản</h5>
+                    <p class="card-description">
+                      Cơm chiên hải sản ngon hấp dẫn là sự kết hợp hoàn hảo của
+                      tôm, mực, các loại củ, hạt và cơm trắng tạo nên món ăn hấp
+                      dẫn khó cưỡng.
+                    </p>
+                    <span class="card-price">29.000đ</span>
+                    <button class="btn btn-danger btn-buy">Mua Ngay</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="p-2 col-sm-6 col-md-4 col-lg-2">
+              <div class="card">
+                <a class="card-link" href="/pages/detail-product.html">
+                  <img
+                    src="assets/img/img-product/com-rang.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-name">Cơm rang</h5>
+                    <p class="card-description">
+                      Cơm rang là món khoái khẩu giúp đổi vị cho bữa ăn gia
+                      đình, nhưng nhiều người thừa nhận họ chỉ muốn thưởng thức
+                      cơm rang ở nhà hàng vì khi tự rang, đĩa cơm không tơi mà
+                      hay bị dính vào nhau, hạt cơm cũng không được trong, bóng
+                      và săn chắc, vừa giòn vừa dẻo như đầu bếp làm.
+                    </p>
+                    <span class="card-price">29.000đ</span>
+                    <button class="btn btn-danger btn-buy">Mua Ngay</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="p-2 col-sm-6 col-md-4 col-lg-2">
+              <div class="card">
+                <a class="card-link" href="/pages/detail-product.html">
+                  <img
+                    src="assets/img/img-product/com-thit-bo.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-name">Cơm thịt bò</h5>
+                    <p class="card-description">
+                      Thịt bò có nhiều cách chế biến phong phú và đa dạng nhưng
+                      tất cả đều thơm ngon và trong đó có món cơm bò.
+                    </p>
+                    <span class="card-price">29.000đ</span>
+                    <button class="btn btn-danger btn-buy">Mua Ngay</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="p-2 col-sm-6 col-md-4 col-lg-2">
+              <div class="card">
+                <a class="card-link" href="/pages/detail-product.html">
+                  <img
+                    src="assets/img/img-product/com-tam-long-xuyen.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-name">Cơm tấm Long Xuyên</h5>
+                    <p class="card-description">
+                      Không chỉ sở hữu địa điểm du lịch nổi tiếng như Miếu Bà
+                      Chúa Xứ Núi Sam Châu Đốc, An Giang còn là một thiên đường
+                      ẩm thực với đa dạng các món ăn hấp dẫn. Nếu bạn đến nơi
+                      đây chơi mà chưa đặt chân đến quán cơm tấm Long Xuyên nào
+                      thì xem như chuyến đi đó chưa trọn vẹn. Điều làm nên sự
+                      đặc biệt của món cơm tấm Long Xuyên nằm ở nguyên liệu,
+                      cách chế biến và trình bày độc lạ, không hề đụng hàng với
+                      cơm tấm ở bất cứ vùng đất nào.
+                    </p>
+                    <span class="card-price">29.000đ</span>
+                    <button class="btn btn-danger btn-buy">Mua Ngay</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="p-2 col-sm-6 col-md-4 col-lg-2">
+              <div class="card">
+                <a class="card-link" href="/pages/detail-product.html">
+                  <img
+                    src="assets/img/img-product/com-ni.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-name">Cơm nị</h5>
+                    <p class="card-description">
+                      Nét văn hóa rực rỡ, phóng khoáng nhưng không quá kiểu
+                      cách, phô trương của cộng đồng dân tộc Chăm ở An Giang
+                      luôn có sức cuốn hút một cách kỳ lạ. Những tinh túy ấy len
+                      lỏi vào từng nếp sống, hơi thở và nở rộ ngay trong nền ẩm
+                      thực địa phương, điển hình là món cơm nị - cà púa.
+                    </p>
+                    <span class="card-price">29.000đ</span>
+                    <button class="btn btn-danger btn-buy">Mua Ngay</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="section-1">
+            <p>
+              Sự kiện ưu đãi giảm giá cực sốc với các món trong sự kiện "Đồng
+              hành cùng bữa cơm gia đình trong mùa Noel" và sự kiện sẽ bắt đầu
+              trong tháng 01/12/2023 đến 31/12/2023
+            </p>
+            <p>
+              Xin trân trọng cảm ơn quý khách đã ủng hộ Food Network trong thời
+              gian qua, Food Network sẽ có gắng hoàn thiện để cho quý khách có
+              được trải nghiệm tốt nhất khi thưởng thức đồ ăn tại Food Network
+            </p>
+            <p>
+              KÍNH MONG QUÝ KHÁCH SẼ ỦNG HỘ CHO FOOD NETWORK &#128525; &#128525;
+              &#128525; &#128525;
+            </p>
+            <p>
+              CHÚC QUÝ KHÁCH CÓ MỘT NGÀY TỐT LÀNH VÀ HẠNH PHÚC, VUI VẺ BÊN GIA
+              ĐÌNH !!!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+              <h5 class="heading">Chăm sóc khách hàng</h5>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a
+                    href="/pagehelp.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Trung tâm trợ giúp</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/gopykhieunai.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Góp ý kiến khiếu nại</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/huongdanmuahang.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Hướng dẫn mua hàng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="thongtinnhuongquyen.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Thông tin nhượng quyền</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item-link">Vận chuyển</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+              <h5 class="heading">Về chúng tôi</h5>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a
+                    href="/gioithieu.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Giới thiệu về cửa hàng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/noiquycuahang.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Nội quy cửa hàng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/tuyendungnv.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Tuyển dụng</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/chinhsachbaomat.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Chính sách bảo mật</a
+                  >
+                </li>
+                <li class="footer-item">
+                  <a
+                    href="/dieukhoansudung.html"
+                    class="footer-item-link"
+                    target="_blank"
+                    >Điều khoảng sử dụng</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+              <h5 class="heading">Theo dõi chúng tôi</h5>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="" class="footer-item-link">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item-link">
+                    <i class="fa-brands fa-youtube"></i>
+                    Youtube
+                  </a>
+                </li>
+                <li class="footer-item">
+                  <a href="" class="footer-item-link">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-sm-6 col-md-4 col-lg-3">
+              <h5 class="heading">Liên hệ với chúng tôi</h5>
+              <ul class="footer-list">
+                <li class="footer-item">Địa chỉ: Không biết</li>
+                <li class="footer-item">SĐT: Không có</li>
+                <li class="footer-item">Email: Không có</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- js boostrap -->
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script type="module" src="assets/js/data.js"></script>
+    <script type="module" src="assets/js/app.js"></script>
+    <script type="module" src="assets/js/common.js"></script>
+  </body>
+</html>
